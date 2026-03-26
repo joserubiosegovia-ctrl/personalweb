@@ -1,0 +1,897 @@
+<!-- Landing Page PersonalWeb -->
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Landing Page PersonalWeb</title>
+<meta content="Tu negocio online profesional. Gratis y sin trampa. Solo pagas tu dominio." name="description"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "error-container": "#ffdad6",
+              "on-tertiary-fixed": "#002109",
+              "inverse-primary": "#adc7f8",
+              "on-secondary-fixed": "#370e00",
+              "surface-container-highest": "#e0e3e5",
+              "surface-container-low": "#f2f4f6",
+              "on-primary-container": "#718bb9",
+              "on-tertiary-fixed-variant": "#005321",
+              "on-error-container": "#93000a",
+              "on-tertiary-container": "#00a048",
+              "tertiary": "#001103",
+              "on-error": "#ffffff",
+              "on-secondary-fixed-variant": "#7f2b00",
+              "surface-dim": "#d8dadc",
+              "inverse-surface": "#2d3133",
+              "on-secondary": "#ffffff",
+              "surface-tint": "#455f8a",
+              "primary-fixed": "#d6e3ff",
+              "on-surface": "#191c1e",
+              "secondary-container": "#fd661d",
+              "inverse-on-surface": "#eff1f3",
+              "outline": "#74777f",
+              "primary-container": "#00234b",
+              "surface-container": "#eceef0",
+              "on-surface-variant": "#43474e",
+              "surface": "#f7f9fb",
+              "on-secondary-container": "#571a00",
+              "on-primary": "#ffffff",
+              "tertiary-container": "#002a0d",
+              "surface-container-high": "#e6e8ea",
+              "secondary-fixed": "#ffdbce",
+              "on-primary-fixed": "#001b3d",
+              "surface-container-lowest": "#ffffff",
+              "secondary": "#a73a00",
+              "secondary-fixed-dim": "#ffb599",
+              "background": "#f7f9fb",
+              "on-background": "#191c1e",
+              "tertiary-fixed": "#6bff8f",
+              "outline-variant": "#c4c6d0",
+              "primary": "#000e24",
+              "on-primary-fixed-variant": "#2c4771",
+              "primary-fixed-dim": "#adc7f8",
+              "on-tertiary": "#ffffff",
+              "error": "#ba1a1a",
+              "surface-bright": "#f7f9fb",
+              "tertiary-fixed-dim": "#4ae176",
+              "surface-variant": "#e0e3e5"
+            },
+            fontFamily: {
+              "headline": ["Inter"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f7f9fb;
+      }
+      .tonal-volume-shift {
+        transition: background-color 0.3s ease;
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+</head>
+<body class="text-on-surface">
+<!-- TopNavBar -->
+<nav class="sticky top-0 w-full z-50 flex justify-between items-center px-8 py-4 bg-slate-50/80 dark:bg-slate-950/80 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,14,36,0.08)]">
+<div class="text-xl font-bold tracking-tighter text-[#000e24] dark:text-white uppercase">PersonalWeb</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-[#43474e] dark:text-slate-400 uppercase text-[11px] tracking-[0.05em] font-semibold hover:text-[#fd661d] transition-colors duration-200" href="#servicios">Servicios</a>
+<a class="text-[#43474e] dark:text-slate-400 uppercase text-[11px] tracking-[0.05em] font-semibold hover:text-[#fd661d] transition-colors duration-200" href="#como-funciona">Como funciona</a>
+<a class="text-[#43474e] dark:text-slate-400 uppercase text-[11px] tracking-[0.05em] font-semibold hover:text-[#fd661d] transition-colors duration-200" href="#portfolio">Portfolio</a>
+<a class="text-[#43474e] dark:text-slate-400 uppercase text-[11px] tracking-[0.05em] font-semibold hover:text-[#fd661d] transition-colors duration-200" href="#precios">Precios</a>
+<a class="text-[#43474e] dark:text-slate-400 uppercase text-[11px] tracking-[0.05em] font-semibold hover:text-[#fd661d] transition-colors duration-200" href="#faq">FAQ</a>
+</div>
+<a class="bg-[#fd661d] text-white px-8 py-3 font-bold text-sm tracking-wide transition-transform active:scale-95 duration-100 uppercase" href="#formulario">
+            Empezar gratis
+        </a>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-[921px] flex items-center justify-center overflow-hidden bg-primary py-20">
+<div class="absolute inset-0 opacity-20 pointer-events-none" style="background-image: linear-gradient(135deg, #000e24 0%, #00234b 100%);"></div>
+<div class="container mx-auto px-8 relative z-10 text-center max-w-5xl">
+<span class="inline-block text-secondary-container font-bold tracking-[0.2em] text-xs uppercase mb-6">Soluciones Digitales Profesionales</span>
+<h1 class="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-tight tracking-tighter mb-8">
+                Tu negocio online.<br/>Gratis y sin trampa.
+            </h1>
+<p class="text-xl md:text-2xl text-on-primary-container mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+                Creamos tu web profesional o tu app a medida. Tú solo dinos qué necesitas. Nosotros nos encargamos de todo.
+            </p>
+<div class="bg-primary-container/50 inline-block px-6 py-3 border-l-4 border-secondary mb-12">
+<p class="text-white font-medium italic">
+                    El único coste: tu dominio (tu nombre en internet), desde 10€/año.
+                </p>
+</div>
+<div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+<a class="w-full md:w-auto bg-secondary text-white px-12 py-5 text-lg font-bold tracking-wide uppercase transition-all hover:brightness-110 active:scale-95" href="#formulario">
+                    Empezar gratis
+                </a>
+<a class="w-full md:w-auto border-b-2 border-secondary text-white px-12 py-5 text-lg font-bold tracking-wide uppercase transition-all hover:bg-white/5 active:scale-95" href="#portfolio">
+                    Ver nuestro trabajo
+                </a>
+</div>
+</div>
+</header>
+<!-- Servicios Section (Bento Grid Style) -->
+<section class="py-32 bg-surface" id="servicios">
+<div class="container mx-auto px-8">
+<div class="mb-20">
+<h2 class="text-4xl md:text-5xl font-black text-primary tracking-tighter uppercase mb-4">Todo lo que tu negocio necesita en internet</h2>
+<div class="w-24 h-2 bg-secondary"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest p-12 flex flex-col justify-between group hover:bg-primary transition-colors duration-500 min-h-[400px]">
+<div>
+<span class="material-symbols-outlined text-secondary text-5xl mb-8 group-hover:text-white transition-colors" data-icon="monitor">monitor</span>
+<h3 class="text-2xl font-extrabold text-primary mb-4 group-hover:text-white uppercase tracking-tight">Páginas web</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary-container transition-colors leading-relaxed">Presencia profesional optimizada para todos los dispositivos con diseño a medida.</p>
+</div>
+<div class="mt-8">
+<span class="text-xs font-black tracking-widest text-secondary uppercase bg-secondary/10 px-3 py-1 group-hover:bg-white/10 group-hover:text-white">Gratis solo pagas dominio</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-low p-12 flex flex-col justify-between group hover:bg-primary transition-colors duration-500 min-h-[400px]">
+<div>
+<span class="material-symbols-outlined text-secondary text-5xl mb-8 group-hover:text-white transition-colors" data-icon="smartphone">smartphone</span>
+<h3 class="text-2xl font-extrabold text-primary mb-4 group-hover:text-white uppercase tracking-tight">Apps móviles</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary-container transition-colors leading-relaxed">Soluciones nativas o híbridas para iOS y Android adaptadas a tu flujo de negocio.</p>
+</div>
+<div class="mt-8">
+<span class="text-xs font-black tracking-widest text-secondary uppercase bg-secondary/10 px-3 py-1 group-hover:bg-white/10 group-hover:text-white">Pide presupuesto</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-high p-12 flex flex-col justify-between group hover:bg-primary transition-colors duration-500 min-h-[400px]">
+<div>
+<span class="material-symbols-outlined text-secondary text-5xl mb-8 group-hover:text-white transition-colors" data-icon="public">public</span>
+<h3 class="text-2xl font-extrabold text-primary mb-4 group-hover:text-white uppercase tracking-tight">Presencia digital</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary-container transition-colors leading-relaxed">Google Maps, Perfil de Empresa y SEO básico para que te encuentren hoy mismo.</p>
+</div>
+<div class="mt-8">
+<span class="text-xs font-black tracking-widest text-secondary uppercase bg-secondary/10 px-3 py-1 group-hover:bg-white/10 group-hover:text-white">Desde 0€</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Como Funciona Section -->
+<section class="py-32 bg-primary-container text-white" id="como-funciona">
+<div class="container mx-auto px-8">
+<h2 class="text-4xl md:text-5xl font-black tracking-tighter uppercase mb-20 text-center">Así de fácil</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-16 relative">
+<!-- Step 1 -->
+<div class="relative z-10 text-center">
+<div class="text-8xl font-black text-white/10 absolute -top-12 left-1/2 -translate-x-1/2 z-0">01</div>
+<h3 class="text-xl font-bold uppercase mb-4 relative z-10">Cuéntanos qué necesitas</h3>
+<p class="text-on-primary-container leading-relaxed">A través de nuestro formulario o WhatsApp, explícanos tu idea y sector.</p>
+</div>
+<!-- Step 2 -->
+<div class="relative z-10 text-center">
+<div class="text-8xl font-black text-white/10 absolute -top-12 left-1/2 -translate-x-1/2 z-0">02</div>
+<h3 class="text-xl font-bold uppercase mb-4 relative z-10">Diseñamos tu solución</h3>
+<p class="text-on-primary-container leading-relaxed">Nuestro equipo técnico prepara tu sitio web con los mejores estándares visuales.</p>
+</div>
+<!-- Step 3 -->
+<div class="relative z-10 text-center">
+<div class="text-8xl font-black text-white/10 absolute -top-12 left-1/2 -translate-x-1/2 z-0">03</div>
+<h3 class="text-xl font-bold uppercase mb-4 relative z-10">Tu negocio online en 24h</h3>
+<p class="text-on-primary-container leading-relaxed">Una vez aprobado, publicamos tu web bajo tu propio dominio profesional.</p>
+</div>
+</div>
+<div class="mt-24 pt-16 border-t border-white/10 flex flex-wrap justify-center gap-12 text-center">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" data-icon="check_circle">check_circle</span>
+<span class="font-bold uppercase text-xs tracking-widest">Sin conocimientos técnicos</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" data-icon="check_circle">check_circle</span>
+<span class="font-bold uppercase text-xs tracking-widest">Sin complicaciones</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" data-icon="check_circle">check_circle</span>
+<span class="font-bold uppercase text-xs tracking-widest">Sin costes ocultos</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Portfolio Section -->
+<section class="py-32 bg-surface" id="portfolio">
+<div class="container mx-auto px-8">
+<div class="flex justify-between items-end mb-16">
+<div>
+<h2 class="text-4xl md:text-5xl font-black text-primary tracking-tighter uppercase mb-4">Trabajos que hemos hecho</h2>
+<div class="w-24 h-2 bg-secondary"></div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Portfolio Items -->
+<div class="bg-surface-container-lowest group overflow-hidden">
+<div class="aspect-video bg-surface-container-high relative overflow-hidden">
+<img alt="Fontaneria Martinez" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Close-up of professional plumbing tools and copper pipes on a clean workbench with bright industrial lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeFVjZyakdISsR27QTrHHZeA1uJnRJu_HoeubfZuWkgwEyMzovWO3cQAaIaTzLdcWcX8GDO5RwdOJQcR67iLMao3FOI5527j6nxr48ANS4MjKlKM-5SVUfUoBak4dvDjDNf2gCzAeJeTp6CB0008NGECXuG8Ju172DPZk5ZDbP7xEDXjRNsgzfV57v2tx7n7sbOkdDOtMs06PHjYBBKoXq6rsvnROqxqhoCU3Z0da8grLgr7K97Vkge24bqevlI1Dey5wZATmz4mdx"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<h4 class="text-xl font-black text-primary uppercase">Fontanería Martínez</h4>
+<span class="text-[10px] font-bold bg-primary text-white px-2 py-1 uppercase tracking-tighter">Web</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6">Servicios de fontanería</p>
+<button class="w-full border-b border-outline-variant py-3 text-xs font-bold uppercase tracking-widest hover:border-secondary hover:text-secondary transition-colors text-left flex justify-between items-center">
+                            Ver proyecto
+                            <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="bg-surface-container-lowest group overflow-hidden">
+<div class="aspect-video bg-surface-container-high relative overflow-hidden">
+<img alt="Peluqueria Rosa" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Modern minimalist hair salon interior with elegant chairs and large mirrors under soft warm ambient lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC89Wqbdcarq4wMbAYS-QMamcxnw1f8L749dxIBsOYJUPvaDbrhsbauEoLor-1cwdZlQrxseuqCvzYz0nYYbflcIOXLo28zMy4aRDZSmtcTk_Lh9FidUqphW6vMgbFmdJID6GKwko8iWZFs0_bXe1yG_bkRXZqIz0IiyAytQRcsZfYyASBPiUjsTRQVx4WgaYjTButmpoI7Q6jqaaImQczclF4mcAfz5jIQECxfaVR29e5nPZiiYDRs_bq0IxuOn4b7Db-eVBL_IQMj"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<h4 class="text-xl font-black text-primary uppercase">Peluquería Rosa</h4>
+<span class="text-[10px] font-bold bg-primary text-white px-2 py-1 uppercase tracking-tighter">Web</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6">Estética y Belleza</p>
+<button class="w-full border-b border-outline-variant py-3 text-xs font-bold uppercase tracking-widest hover:border-secondary hover:text-secondary transition-colors text-left flex justify-between items-center">
+                            Ver proyecto
+                            <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="bg-surface-container-lowest group overflow-hidden">
+<div class="aspect-video bg-surface-container-high relative overflow-hidden">
+<img alt="Clinica Dental Sonrie" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="High-tech dental clinic office with clean white surfaces and professional medical equipment in a bright airy setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlqzzMguw9hnfup14EzeS6k_INcIlLRbpwAMRDABQLg0UnSzQzdrjQnVs6sacNOnv2hX-LRinCbA_soxv3Xm1dFP2i30ktpleBwAaPMbS_Cpe4D0ItUtgc9XQCK5cm4v1o9MhkfWaWYEUz0zKCdh5WgDPlfBAnFRzG62m81E8DSXIaodaOD0htw-XLh3PC0L5Rr1avasUltJOYn2EiQ7RhcxZAxZmqg5RIUu40TVHmAX4Z2J8Iqbsaea1a2uVM8CSpqQOoIhZ-SPqA"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<h4 class="text-xl font-black text-primary uppercase">Clínica Dental</h4>
+<span class="text-[10px] font-bold bg-primary text-white px-2 py-1 uppercase tracking-tighter">App</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6">Salud bucodental</p>
+<button class="w-full border-b border-outline-variant py-3 text-xs font-bold uppercase tracking-widest hover:border-secondary hover:text-secondary transition-colors text-left flex justify-between items-center">
+                            Ver proyecto
+                            <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="bg-surface-container-lowest group overflow-hidden">
+<div class="aspect-video bg-surface-container-high relative overflow-hidden">
+<img alt="Restaurante El Rincon" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Cozy restaurant interior with wooden tables and atmospheric pendant lighting during evening hours" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQHASs0No6oGL6Dw90Xvo_QArU1kO2Ykgg1eD1xK3OWKJ_QEkM9kLs_bVTcrOcuSv2WcjUxLuBTw_SGuMOCO8eM_Zehgl3DQ_vU5BDH1f8ITPCm7PPLtiI9We0tzBK1O4r4mLDznVyjBjWUZaG3Yu8NichVYdz_Y5jl3nh9R3XJBGFBrr4c4AlUsDPV0dops4uiz1G-BVzYk-O4SRS4WhaFRx7uSBg2Rp2uyNL7voRnGLxzAqK7H7Dn-jM4_Zv7CgNV_5V8LytsAOY"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<h4 class="text-xl font-black text-primary uppercase">Restaurante El Rincón</h4>
+<span class="text-[10px] font-bold bg-primary text-white px-2 py-1 uppercase tracking-tighter">Web</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6">Gastronomía local</p>
+<button class="w-full border-b border-outline-variant py-3 text-xs font-bold uppercase tracking-widest hover:border-secondary hover:text-secondary transition-colors text-left flex justify-between items-center">
+                            Ver proyecto
+                            <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="bg-surface-container-lowest group overflow-hidden">
+<div class="aspect-video bg-surface-container-high relative overflow-hidden">
+<img alt="Taller MecanicoPro" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Professional car repair shop with modern lifting equipment and organized tool sets in a spacious industrial garage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHBwyI5zesJXTMe--Vvu5TXZmoI5WoeYEKzNhUHZRKawxDHj7bOe2oJGRT4_PQJy2vQaytQ9vCmKmlw0uDis-G9DuEgLeoiI0PQciVhRt_6CQm6zc-DlmtxKyYMi8J8KZCNJUEZDXnHGG1TfMhzZzOsL9a1ybf1msDs9qq1vSh_pbcrObvoVTW3uM4GJ19gESnfjFJaxGixFlqNvTTW5MN2gMv3J5R3Yg5CGkRWvZXRLbrRMgBj7sjDm5dO_Vsi70IXWEuNpK8B3xX"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<h4 class="text-xl font-black text-primary uppercase">Taller Mecánico Pro</h4>
+<span class="text-[10px] font-bold bg-primary text-white px-2 py-1 uppercase tracking-tighter">Web</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6">Mecánica integral</p>
+<button class="w-full border-b border-outline-variant py-3 text-xs font-bold uppercase tracking-widest hover:border-secondary hover:text-secondary transition-colors text-left flex justify-between items-center">
+                            Ver proyecto
+                            <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="bg-surface-container-lowest group overflow-hidden">
+<div class="aspect-video bg-surface-container-high relative overflow-hidden">
+<img alt="Abogados Garcia &amp; Asociados" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="Sophisticated law firm office with mahogany furniture, law books in the background, and soft natural window light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX83Px204ZgBMxo9W_u_UeELeGkA5BTDxnOOviKzyzNnTMtkjyszfQezX2LGycXB8Dg7uMl8KEV17aC2RdcSUH7UtuiDK2Q0ZY0wwXO8XD-Bfn-hv38pNrElUClcOnYCCgSb_hd5pUIwkSzvQNksmatHJv5weMxbPRe7YNIsYIKjf9VadcNexdKkEmNTHS4Ldlq6MtBhPOvPWxtI_St91sbhTwxpIzg4ZDmiIY0Nh5ZGq11PuGbXHgNvsqsBRWl9A4u8DzNX3o8LK0"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-start mb-4">
+<h4 class="text-xl font-black text-primary uppercase">Abogados García</h4>
+<span class="text-[10px] font-bold bg-primary text-white px-2 py-1 uppercase tracking-tighter">Web</span>
+</div>
+<p class="text-on-surface-variant text-sm mb-6">Asesoría jurídica</p>
+<button class="w-full border-b border-outline-variant py-3 text-xs font-bold uppercase tracking-widest hover:border-secondary hover:text-secondary transition-colors text-left flex justify-between items-center">
+                            Ver proyecto
+                            <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Precios Section -->
+<section class="py-32 bg-surface-container-low" id="precios">
+<div class="container mx-auto px-8">
+<h2 class="text-4xl md:text-5xl font-black text-primary tracking-tighter uppercase mb-20 text-center">Empieza gratis. Crece cuando quieras.</h2>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-px bg-outline-variant/20 border border-outline-variant/20">
+<!-- Free Plan -->
+<div class="bg-white p-12">
+<h3 class="text-3xl font-black text-primary uppercase mb-8">Tu web gratis incluye:</h3>
+<ul class="space-y-6">
+<li class="flex items-center gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-tertiary-container" data-icon="check">check</span>
+<span>Web Escaparate completa</span>
+</li>
+<li class="flex items-center gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-tertiary-container" data-icon="check">check</span>
+<span>Sección Quiénes Somos</span>
+</li>
+<li class="flex items-center gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-tertiary-container" data-icon="check">check</span>
+<span>Formulario de Contacto</span>
+</li>
+<li class="flex items-center gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-tertiary-container" data-icon="check">check</span>
+<span>Diseño Responsive (Móvil/Tablet)</span>
+</li>
+<li class="flex items-center gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-tertiary-container" data-icon="check">check</span>
+<span>Publicación inmediata</span>
+</li>
+<li class="flex items-center gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-tertiary-container" data-icon="check">check</span>
+<span>Hosting Seguro SSL incluido</span>
+</li>
+</ul>
+<div class="mt-12 pt-8 border-t border-surface-container">
+<div class="flex items-baseline gap-2">
+<span class="text-5xl font-black text-primary">0€</span>
+<span class="text-on-surface-variant text-sm uppercase font-bold">Siempre gratis</span>
+</div>
+<p class="text-xs text-secondary font-bold mt-4 uppercase">* Solo pagas tu nombre de dominio (desde 10€/año)</p>
+</div>
+</div>
+<!-- Premium Blocks -->
+<div class="bg-primary text-white p-12">
+<h3 class="text-3xl font-black uppercase mb-8">Bloques premium opcionales:</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<button class="bg-white/5 p-4 border-l-2 border-secondary flex justify-between items-center hover:bg-white/10 transition-colors cursor-pointer w-full" onclick="openModal('galeria-fotos')">
+<span class="text-sm font-medium">Galería de fotos</span>
+<span class="font-bold text-secondary">29€</span>
+</button>
+<button class="bg-white/5 p-4 border-l-2 border-secondary flex justify-between items-center hover:bg-white/10 transition-colors cursor-pointer w-full" onclick="openModal('menu-digital')">
+<span class="text-sm font-medium">Menú digital</span>
+<span class="font-bold text-secondary">29€</span>
+</button>
+<button class="bg-white/5 p-4 border-l-2 border-secondary flex justify-between items-center hover:bg-white/10 transition-colors cursor-pointer w-full" onclick="openModal('resenas-google')">
+<span class="text-sm font-medium">Reseñas Google</span>
+<span class="font-bold text-secondary">29€</span>
+</button>
+<button class="bg-white/5 p-4 border-l-2 border-secondary flex justify-between items-center hover:bg-white/10 transition-colors cursor-pointer w-full" onclick="openModal('blog-personal')">
+<span class="text-sm font-medium">Blog personal</span>
+<span class="font-bold text-secondary">39€</span>
+</button>
+<button class="bg-white/5 p-4 border-l-2 border-secondary flex justify-between items-center hover:bg-white/10 transition-colors cursor-pointer w-full" onclick="openModal('sistema-reservas')">
+<span class="text-sm font-medium">Sistema Reservas</span>
+<span class="font-bold text-secondary">49€</span>
+</button>
+<button class="bg-white/5 p-4 border-l-2 border-secondary flex justify-between items-center hover:bg-white/10 transition-colors cursor-pointer w-full" onclick="openModal('boton-whatsapp')">
+<span class="text-sm font-medium">Botón WhatsApp</span>
+<span class="font-bold text-secondary">19€</span>
+</button>
+<button class="bg-white/5 p-4 border-l-2 border-secondary flex justify-between items-center hover:bg-white/10 transition-colors cursor-pointer w-full" onclick="openModal('seo-starter')">
+<span class="text-sm font-medium">SEO Starter</span>
+<span class="font-bold text-secondary">49€</span>
+</button>
+<button class="bg-white/5 p-4 border-l-2 border-secondary flex justify-between items-center hover:bg-white/10 transition-colors cursor-pointer w-full" onclick="openModal('tienda-online')">
+<span class="text-sm font-medium">Tienda online</span>
+<span class="font-bold text-secondary">99€</span>
+</button>
+</div>
+<div class="mt-12 pt-8 border-t border-white/10">
+<h4 class="text-xs font-black uppercase tracking-widest text-secondary-container mb-6">Planes de mantenimiento</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Plan Básico -->
+<div class="bg-white/5 p-6 rounded-lg border border-white/10">
+<div class="flex justify-between items-start mb-4">
+<div>
+<p class="text-lg font-bold text-white">Básico</p>
+<p class="text-xs text-secondary-container uppercase tracking-widest">Gestión</p>
+</div>
+<p class="text-2xl font-black text-secondary">14€/mes</p>
+</div>
+<ul class="space-y-3 text-sm text-on-primary-container">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-lg flex-shrink-0">check</span>
+<span>Actualizaciones de seguridad del servidor</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-lg flex-shrink-0">check</span>
+<span>Copias de seguridad semanales</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-lg flex-shrink-0">check</span>
+<span>Monitorización 24/7 online</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-lg flex-shrink-0">check</span>
+<span>Renovación SSL automática</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-lg flex-shrink-0">check</span>
+<span>Hasta 4 cambios mensuales</span>
+</li>
+</ul>
+<p class="text-xs text-white/70 mt-4 pt-4 border-t border-white/10 italic">Respuesta en menos de 24 horas. Como tener un departamento técnico por menos de una pizza a la semana.</p>
+</div>
+<!-- Plan Crecimiento -->
+<div class="bg-secondary/10 p-6 rounded-lg border-2 border-secondary">
+<div class="flex justify-between items-start mb-4">
+<div>
+<p class="text-lg font-bold text-white">Crecimiento</p>
+<p class="text-xs text-secondary uppercase tracking-widest">Contenido + Estrategia</p>
+</div>
+<p class="text-2xl font-black text-secondary">29€/mes</p>
+</div>
+<ul class="space-y-3 text-sm text-on-primary-container">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-lg flex-shrink-0">check</span>
+<span>Todo lo del plan Básico</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-lg flex-shrink-0">check</span>
+<span>Modificaciones ilimitadas</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-lg flex-shrink-0">check</span>
+<span>2 posts mensuales en blog</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-lg flex-shrink-0">check</span>
+<span>Optimización SEO mensual</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-lg flex-shrink-0">check</span>
+<span>Informe de posicionamiento</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-lg flex-shrink-0">check</span>
+<span>Asesoramiento estratégico</span>
+</li>
+</ul>
+<p class="text-xs text-white/70 mt-4 pt-4 border-t border-secondary/50 italic">Convierte tu web en una herramienta que atrae clientes nuevos cada mes.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Que es un Dominio Section -->
+<section class="py-32 bg-surface">
+<div class="container mx-auto px-8 max-w-4xl">
+<h2 class="text-4xl font-black text-primary uppercase tracking-tighter mb-8 text-center">¿Qué es un dominio?</h2>
+<p class="text-on-surface-variant text-xl leading-relaxed text-center mb-12">
+                Es el nombre único que identifica a tu sitio web en internet. Sin él, nadie podría encontrarte. Es como la dirección física de tu local, pero en el mundo digital.
+            </p>
+<div class="bg-white p-12 border-t-8 border-secondary flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-6xl text-primary" data-icon="language">language</span>
+<div>
+<p class="font-black text-2xl uppercase tracking-tighter">Tu dominio = tu dirección</p>
+<p class="text-on-surface-variant">Ejemplo: www.tu-negocio.com</p>
+</div>
+</div>
+<div class="text-center md:text-right">
+<p class="text-4xl font-black text-primary tracking-tighter">Desde 10€/año</p>
+<p class="text-secondary font-black uppercase text-xs tracking-widest mt-2">EL ÚNICO COSTE REAL.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-32 bg-surface-container-low" id="faq">
+<div class="container mx-auto px-8 max-w-4xl">
+<h2 class="text-4xl font-black text-primary tracking-tighter uppercase mb-16 text-center">Preguntas frecuentes (FAQ)</h2>
+<div class="space-y-4">
+<!-- FAQ Item 1 -->
+<details class="group bg-white">
+<summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+<span class="font-bold text-lg uppercase tracking-tight">¿De verdad es gratis?</span>
+<span class="material-symbols-outlined group-open:rotate-45 transition-transform" data-icon="add">add</span>
+</summary>
+<div class="p-8 pt-0 text-on-surface-variant leading-relaxed">
+Sí, completamente. El diseño, la maquetación, la programación y el alojamiento de tu web no tienen ningún coste. Nuestro modelo funciona así: te damos el servicio base gratis porque sabemos que cuando veas los resultados, muchos negocios quieren ir más allá con funcionalidades extra como tienda online, sistema de reservas o blog. Esos módulos sí tienen un coste único (no mensual), pero son totalmente opcionales. Nadie te va a presionar para contratarlos. El único gasto obligatorio es el dominio (tu nombre en internet, tipo www.tunegocio.com), que cuesta entre 10€ y 15€ al año dependiendo de la extensión que elijas (.com, .es, etc.). Ese pago va directamente al registrador del dominio, no a nosotros.                   </div>
+</details>
+<details class="group bg-white">
+<summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+<span class="font-bold text-lg uppercase tracking-tight">¿El dominio es mío?</span>
+<span class="material-symbols-outlined group-open:rotate-45 transition-transform" data-icon="add">add</span>
+</summary>
+<div class="p-8 pt-0 text-on-surface-variant leading-relaxed">
+Sí, al 100%. El dominio se registra a tu nombre o al de tu empresa, con tus datos como titular. Esto significa que legalmente es tuyo y tienes control total sobre él. Si mañana decides cambiar de proveedor web o trabajar con otra empresa, te lo llevas contigo sin ningún problema ni coste adicional. Nunca registramos dominios a nuestro nombre, porque creemos que tu identidad digital debe ser siempre tuya. Te proporcionamos las credenciales de acceso al panel del registrador para que tengas el control desde el primer día.
+                    </div>
+</details>
+<details class="group bg-white">
+<summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+<span class="font-bold text-lg uppercase tracking-tight">¿Necesito saber informática?</span>
+<span class="material-symbols-outlined group-open:rotate-45 transition-transform" data-icon="add">add</span>
+</summary>
+<div class="p-8 pt-0 text-on-surface-variant leading-relaxed">
+Para nada, y esta es precisamente la razón por la que existimos. Nos encargamos de absolutamente todo lo técnico: configuración de servidores, DNS, certificados de seguridad, optimización de velocidad, adaptación a móviles... Tú solo necesitas decirnos qué hace tu negocio, pasarnos los textos y fotos que quieras incluir (o nosotros te ayudamos a redactarlos), y en menos de 24 horas tienes tu web online. Si en el futuro necesitas cambiar un texto, una foto o añadir algo, nos escribes por WhatsApp y lo actualizamos nosotros. No necesitas tocar ni una línea de código.
+                   </div>
+</details>
+<details class="group bg-white">
+<summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+<span class="font-bold text-lg uppercase tracking-tight">¿Cuánto tardáis?</span>
+<span class="material-symbols-outlined group-open:rotate-45 transition-transform" data-icon="add">add</span>
+</summary>
+<div class="p-8 pt-0 text-on-surface-variant leading-relaxed">
+                        Una vez que tengamos toda la información de tu negocio (textos, fotos, logo si tienes, datos de contacto y preferencias de estilo), tu web estará lista en menos de 24 horas laborables. El proceso completo desde que rellenas el formulario suele ser así: en las primeras 2-4 horas te contactamos para confirmar detalles, en las siguientes horas diseñamos y maquetamos, y te enviamos un enlace de previsualización para que des el visto bueno. Si quieres algún ajuste, lo hacemos en el momento. En cuanto apruebes, la publicamos. La mayoría de nuestros clientes tienen su web funcionando el mismo día que nos contactan.
+                    </div>
+</details>
+<details class="group bg-white">
+<summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+<span class="font-bold text-lg uppercase tracking-tight">¿Puedo añadir una tienda online?</span>
+<span class="material-symbols-outlined group-open:rotate-45 transition-transform" data-icon="add">add</span>
+</summary>
+<div class="p-8 pt-0 text-on-surface-variant leading-relaxed">
+                        Sin problema. No hay permanencia, ni penalizaciones, ni cláusulas raras. Si decides que ya no necesitas la web, nos lo comunicas y la damos de baja. Tu dominio sigue siendo tuyo hasta que expire su renovación anual, y puedes usarlo para lo que quieras. Si en el futuro cambias de idea, podemos reactivar todo sin empezar de cero.
+            </div>
+</details> 
+<details class="group bg-white">
+<summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+<span class="font-bold text-lg uppercase tracking-tight">¿Qué pasa si quiero cerrar mi web?</span>
+<span class="material-symbols-outlined group-open:rotate-45 transition-transform" data-icon="add">add</span>
+</summary>
+<div class="p-8 pt-0 text-on-surface-variant leading-relaxed">
+                        Sin problema. No hay permanencia, ni penalizaciones, ni cláusulas raras. Si decides que ya no necesitas la web, nos lo comunicas y la damos de baja. Tu dominio sigue siendo tuyo hasta que expire su renovación anual, y puedes usarlo para lo que quieras. Si en el futuro cambias de idea, podemos reactivar todo sin empezar de cero.
+                    </div>
+</details>
+<details class="group bg-white">
+<summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+<span class="font-bold text-lg uppercase tracking-tight">¿Tendré correo electronico?</span>
+<span class="material-symbols-outlined group-open:rotate-45 transition-transform" data-icon="add">add</span>
+</summary>
+<div class="p-8 pt-0 text-on-surface-variant leading-relaxed">
+                        Sí. Al tener tu propio dominio puedes configurar cuentas de correo profesionales tipo info@tu-negocio.com, contacto@tu-negocio.com o las que necesites. Esto da una imagen mucho más seria que usar un Gmail o Hotmail de cara a tus clientes. Te ayudamos a configurarlo en tu móvil y ordenador para que lo tengas listo desde el primer día.
+                    </div>
+</details>
+<details class="group bg-white">
+<summary class="flex justify-between items-center p-8 cursor-pointer list-none">
+<span class="font-bold text-lg uppercase tracking-tight">La web sera segura?</span>
+<span class="material-symbols-outlined group-open:rotate-45 transition-transform" data-icon="add">add</span>
+</summary>
+<div class="p-8 pt-0 text-on-surface-variant leading-relaxed">
+                        Sí. Todas nuestras webs incluyen certificado SSL gratuito (el candado verde del navegador), lo que significa que la conexión entre tu web y tus visitantes está cifrada. Además, alojamos las webs en servidores con copias de seguridad automáticas diarias, protección anti-DDoS y actualizaciones de seguridad constantes. Si en algún momento hay cualquier incidencia, nuestro equipo técnico se encarga de resolverla.Sí. Todas nuestras webs incluyen certificado SSL gratuito (el candado verde del navegador), lo que significa que la conexión entre tu web y tus visitantes está cifrada. Además, alojamos las webs en servidores con copias de seguridad automáticas diarias, protección anti-DDoS y actualizaciones de seguridad constantes. Si en algún momento hay cualquier incidencia, nuestro equipo técnico se encarga de resolverla.
+                    </div>
+</details>
+</div>
+</div>
+</section>
+<!-- Formulario Section -->
+<section class="py-32 bg-primary" id="formulario">
+<div class="container mx-auto px-8 max-w-5xl">
+<div class="text-center mb-16">
+<h2 class="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter mb-4">Cuéntanos sobre tu negocio</h2>
+<p class="text-on-primary-container text-lg">Completa este formulario y nos pondremos en marcha inmediatamente.</p>
+</div>
+<div class="bg-surface-container-lowest p-12">
+<form class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-2">
+<label class="block text-[10px] font-black uppercase tracking-widest text-on-surface-variant">Nombre del negocio</label>
+<input class="w-full bg-surface-container-high border-0 border-b-2 border-outline focus:ring-0 focus:border-secondary transition-colors p-4" placeholder="Ej: Peluquería Martínez" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="block text-[10px] font-black uppercase tracking-widest text-on-surface-variant">Tu nombre completo</label>
+<input class="w-full bg-surface-container-high border-0 border-b-2 border-outline focus:ring-0 focus:border-secondary transition-colors p-4" placeholder="Tu nombre" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="block text-[10px] font-black uppercase tracking-widest text-on-surface-variant">Sector de actividad</label>
+<select class="w-full bg-surface-container-high border-0 border-b-2 border-outline focus:ring-0 focus:border-secondary transition-colors p-4">
+<option>Hostelería</option>
+<option>Salud/Clínicas</option>
+<option>Reformas/Construcción</option>
+<option>Servicios Profesionales</option>
+<option>Comercio/Retail</option>
+<option>Otros</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="block text-[10px] font-black uppercase tracking-widest text-on-surface-variant">Servicio interesado</label>
+<select class="w-full bg-surface-container-high border-0 border-b-2 border-outline focus:ring-0 focus:border-secondary transition-colors p-4">
+<option>Página Web Gratis</option>
+<option>App Móvil</option>
+<option>Pack Presencia Digital</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="block text-[10px] font-black uppercase tracking-widest text-on-surface-variant">Objetivo de la web</label>
+<select class="w-full bg-surface-container-high border-0 border-b-2 border-outline focus:ring-0 focus:border-secondary transition-colors p-4">
+<option>Darme a conocer</option>
+<option>Vender productos</option>
+<option>Conseguir citas/reservas</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="block text-[10px] font-black uppercase tracking-widest text-on-surface-variant">Telefono de contacto</label>
+<input class="w-full bg-surface-container-high border-0 border-b-2 border-outline focus:ring-0 focus:border-secondary transition-colors p-4" placeholder="600 000 000" type="tel"/>
+</div>
+<div class="space-y-2 md:col-span-2">
+<label class="block text-[10px] font-black uppercase tracking-widest text-on-surface-variant">Email</label>
+<input class="w-full bg-surface-container-high border-0 border-b-2 border-outline focus:ring-0 focus:border-secondary transition-colors p-4" placeholder="hola@tuempresa.com" type="email"/>
+</div>
+<div class="space-y-2 md:col-span-2">
+<label class="block text-[10px] font-black uppercase tracking-widest text-on-surface-variant">Colores preferidos</label>
+<select class="w-full bg-surface-container-high border-0 border-b-2 border-outline focus:ring-0 focus:border-secondary transition-colors p-4">
+<option>Serio (Azules/Grises)</option>
+<option>Energético (Naranjas/Rojos)</option>
+<option>Ecológico (Verdes)</option>
+<option>Elegante (Blanco/Negro)</option>
+<option>Cálido (Beige/Marrón)</option>
+<option>Vibrante (Morados/Violetas)</option>
+<option>Fresco (Turquesa/Menta)</option>
+<option>Dorado/Luxury (Negro/Dorado)</option>
+<option>Femenino (Rosas/Coral)</option>
+<option>Me lo dejas a tu criterio</option>
+</select>
+</div>
+<div class="space-y-2 md:col-span-2">
+<label class="block text-[10px] font-black uppercase tracking-widest text-on-surface-variant">Comentarios adicionales</label>
+<textarea class="w-full bg-surface-container-high border-0 border-b-2 border-outline focus:ring-0 focus:border-secondary transition-colors p-4" placeholder="Cuéntanos más detalles..." rows="4"></textarea>
+</div>
+<div class="md:col-span-2 flex flex-col md:flex-row gap-4 mt-8">
+<button class="flex-1 bg-secondary text-white py-6 font-bold text-xl uppercase tracking-widest transition-all hover:brightness-110 active:scale-95" type="submit">
+                            Quiero mi web gratis
+                        </button>
+<button class="flex items-center justify-center gap-3 bg-[#25D366] text-white px-8 py-6 font-bold uppercase tracking-widest transition-all hover:brightness-110 active:scale-95" type="button" onclick="window.open('https://wa.me/34666655962','_blank')">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="26" height="26" style="flex-shrink:0">
+  <path fill="#fff" d="M4.9 43.3l2.7-9.9C5.5 30.7 4.5 27.4 4.5 24 4.5 13.2 13.2 4.5 24 4.5S43.5 13.2 43.5 24 34.8 43.5 24 43.5c-3.3 0-6.5-.9-9.3-2.5L4.9 43.3z"/>
+  <path fill="#25D366" d="M24 7.5C14.9 7.5 7.5 14.9 7.5 24c0 3.2.9 6.2 2.5 8.8L7.6 41l8.4-2.4c2.5 1.4 5.4 2.2 8.4 2.2 9.1 0 16.5-7.4 16.5-16.5S33.1 7.5 24 7.5z"/>
+  <path fill="#fff" d="M33.3 28.5c-.4-.2-2.5-1.2-2.9-1.4-.4-.2-.7-.2-1 .2-.3.4-1.1 1.4-1.4 1.7-.3.3-.5.3-.9.1-.4-.2-1.8-.7-3.4-2.1-1.3-1.1-2.1-2.5-2.4-2.9-.2-.4 0-.6.2-.8.2-.2.4-.5.6-.7.2-.2.3-.4.4-.7.1-.3 0-.5-.1-.7-.1-.2-1-2.5-1.4-3.4-.4-.9-.7-.8-1-.8h-.8c-.3 0-.7.1-1 .5-.4.4-1.4 1.4-1.4 3.3 0 2 1.5 3.9 1.7 4.1.2.3 2.9 4.6 7.2 6.3 1 .4 1.8.6 2.4.8 1 .3 1.9.3 2.6.2.8-.1 2.5-1 2.9-2 .4-.9.4-1.7.3-1.9-.1-.1-.4-.2-.8-.4z"/>
+</svg>
+                            WhatsApp
+                        </button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-16 px-8 grid grid-cols-1 md:grid-cols-4 gap-12 bg-[#f2f4f6] dark:bg-slate-900 border-0 rounded-none">
+<div class="flex flex-col gap-6">
+<div class="text-2xl font-black text-[#000e24] dark:text-white uppercase tracking-tighter">PersonalWeb</div>
+<p class="text-[#43474e] dark:text-slate-400 font-['Inter'] body-md leading-relaxed">
+                Transformamos negocios locales en referentes digitales. Sin costes de desarrollo, sin complicaciones.
+            </p>
+</div>
+<div>
+<h4 class="font-bold text-primary dark:text-white uppercase text-xs tracking-widest mb-6">Navegación</h4>
+<ul class="space-y-4">
+<li><a class="text-[#43474e] dark:text-slate-400 hover:underline decoration-[#fd661d] decoration-2 underline-offset-4 transition-all duration-300" href="#servicios">Servicios</a></li>
+<li><a class="text-[#43474e] dark:text-slate-400 hover:underline decoration-[#fd661d] decoration-2 underline-offset-4 transition-all duration-300" href="#portfolio">Portfolio</a></li>
+<li><a class="text-[#43474e] dark:text-slate-400 hover:underline decoration-[#fd661d] decoration-2 underline-offset-4 transition-all duration-300" href="#precios">Precios</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-primary dark:text-white uppercase text-xs tracking-widest mb-6">Legal</h4>
+<ul class="space-y-4">
+<li><a class="text-[#43474e] dark:text-slate-400 hover:underline decoration-[#fd661d] decoration-2 underline-offset-4 transition-all duration-300" href="#">Privacidad</a></li>
+<li><a class="text-[#43474e] dark:text-slate-400 hover:underline decoration-[#fd661d] decoration-2 underline-offset-4 transition-all duration-300" href="#">Legal</a></li>
+<li><a class="text-[#43474e] dark:text-slate-400 hover:underline decoration-[#fd661d] decoration-2 underline-offset-4 transition-all duration-300" href="#">Cookies</a></li>
+</ul>
+</div>
+<div class="flex flex-col gap-6">
+<h4 class="font-bold text-primary dark:text-white uppercase text-xs tracking-widest mb-6">Contacto</h4>
+<div class="flex items-center gap-3 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary" data-icon="mail">mail</span>
+<span>hola@personalweb.es</span>
+</div>
+<p class="text-xs text-on-surface-variant/60 font-medium">
+                &copy; 2026 PersonalWeb. Tu negocio online. Gratis y sin trampa.
+            </p>
+</div>
+</footer>
+<!-- Modales para bloques premium -->
+<div id="menu-digital" class="modal hidden fixed inset-0 bg-black/50 flex items-center justify-center z-[1000] p-4" onclick="closeModal(event)">
+<div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation()">
+<div class="sticky top-0 bg-white border-b flex justify-between items-center p-6">
+<h3 class="text-2xl font-black text-primary uppercase">Menú digital</h3>
+<button onclick="closeModal()" class="text-3xl font-bold text-gray-400 hover:text-gray-600">&times;</button>
+</div>
+<div class="p-6 text-on-surface-variant leading-relaxed space-y-4">
+<p class="text-lg font-bold text-primary">Menú digital (29€)</p>
+<p>Tu carta siempre actualizada y accesible desde el móvil de tus clientes. Creamos un menú visual con fotos de tus platos, descripciones, precios y categorías (entrantes, principales, postres, bebidas...). Tus clientes acceden escaneando un código QR desde la mesa, sin necesidad de descargar ninguna app.</p>
+<p>Tú puedes pedirnos cambios de platos, precios o temporadas cuando quieras y lo actualizamos en el momento. Se acabó imprimir cartas cada vez que cambia un precio.</p>
+<div class="mt-6 pt-6 border-t">
+<button onclick="closeModal()" class="bg-primary text-white px-6 py-3 rounded font-bold hover:bg-primary/90">Entendido</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="resenas-google" class="modal hidden fixed inset-0 bg-black/50 flex items-center justify-center z-[1000] p-4" onclick="closeModal(event)">
+<div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation()">
+<div class="sticky top-0 bg-white border-b flex justify-between items-center p-6">
+<h3 class="text-2xl font-black text-primary uppercase">Reseñas Google</h3>
+<button onclick="closeModal()" class="text-3xl font-bold text-gray-400 hover:text-gray-600">&times;</button>
+</div>
+<div class="p-6 text-on-surface-variant leading-relaxed space-y-4">
+<p class="text-lg font-bold text-primary">Reseñas Google (29€)</p>
+<p>Configuramos y optimizamos tu Perfil de Empresa de Google (antes Google My Business) para que aparezcas en Google Maps y en las búsquedas locales con toda tu información: horarios, fotos, ubicación y reseñas.</p>
+<p>Además, creamos un sistema de enlace directo y código QR para que puedas pedir reseñas a tus clientes de forma fácil (por ejemplo, con una tarjetita en el mostrador o un mensaje de WhatsApp después del servicio).</p>
+<p>Las reseñas positivas son el factor número uno para que nuevos clientes te elijan frente a la competencia.</p>
+<div class="mt-6 pt-6 border-t">
+<button onclick="closeModal()" class="bg-primary text-white px-6 py-3 rounded font-bold hover:bg-primary/90">Entendido</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="blog-personal" class="modal hidden fixed inset-0 bg-black/50 flex items-center justify-center z-[1000] p-4" onclick="closeModal(event)">
+<div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation()">
+<div class="sticky top-0 bg-white border-b flex justify-between items-center p-6">
+<h3 class="text-2xl font-black text-primary uppercase">Blog personal</h3>
+<button onclick="closeModal()" class="text-3xl font-bold text-gray-400 hover:text-gray-600">&times;</button>
+</div>
+<div class="p-6 text-on-surface-variant leading-relaxed space-y-4">
+<p class="text-lg font-bold text-primary">Blog personal (39€)</p>
+<p>Una sección de artículos dentro de tu web donde puedes publicar novedades, consejos, casos de éxito o lo que quieras contar sobre tu sector. Esto tiene dos ventajas enormes: por un lado, genera confianza en tus visitantes porque ven que eres un profesional activo y con conocimientos.</p>
+<p>Por otro, cada artículo nuevo es una puerta de entrada desde Google, porque posiciona para búsquedas que tu página principal no cubre. Tú nos envías el texto (o unas ideas sueltas y te ayudamos a redactarlo) y nosotros lo publicamos con formato profesional.</p>
+<div class="mt-6 pt-6 border-t">
+<button onclick="closeModal()" class="bg-primary text-white px-6 py-3 rounded font-bold hover:bg-primary/90">Entendido</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="sistema-reservas" class="modal hidden fixed inset-0 bg-black/50 flex items-center justify-center z-[1000] p-4" onclick="closeModal(event)">
+<div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation()">
+<div class="sticky top-0 bg-white border-b flex justify-between items-center p-6">
+<h3 class="text-2xl font-black text-primary uppercase">Sistema de Reservas</h3>
+<button onclick="closeModal()" class="text-3xl font-bold text-gray-400 hover:text-gray-600">&times;</button>
+</div>
+<div class="p-6 text-on-surface-variant leading-relaxed space-y-4">
+<p class="text-lg font-bold text-primary">Sistema de reservas (49€)</p>
+<p>Un calendario integrado en tu web donde tus clientes pueden reservar cita, mesa o servicio directamente, eligiendo fecha y hora entre las franjas que tú definas. Tú recibes una notificación por email o WhatsApp con cada reserva nueva, y el cliente recibe una confirmación automática.</p>
+<p>Se acabaron las llamadas perdidas y los mensajes a deshora. Puedes definir horarios, duración de cada servicio, días de descanso y límite de reservas por franja. Ideal para peluquerías, clínicas, restaurantes, consultorías o cualquier negocio que trabaje con citas.</p>
+<div class="mt-6 pt-6 border-t">
+<button onclick="closeModal()" class="bg-primary text-white px-6 py-3 rounded font-bold hover:bg-primary/90">Entendido</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="boton-whatsapp" class="modal hidden fixed inset-0 bg-black/50 flex items-center justify-center z-[1000] p-4" onclick="closeModal(event)">
+<div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation()">
+<div class="sticky top-0 bg-white border-b flex justify-between items-center p-6">
+<h3 class="text-2xl font-black text-primary uppercase">Botón WhatsApp</h3>
+<button onclick="closeModal()" class="text-3xl font-bold text-gray-400 hover:text-gray-600">&times;</button>
+</div>
+<div class="p-6 text-on-surface-variant leading-relaxed space-y-4">
+<p class="text-lg font-bold text-primary">Botón WhatsApp (19€)</p>
+<p>Un botón flotante visible en todas las páginas de tu web que, al pulsarlo, abre directamente una conversación de WhatsApp contigo con un mensaje predefinido. Es la forma más rápida de convertir una visita en un contacto real, porque el cliente no tiene que buscar tu número, ni copiar nada, ni rellenar formularios.</p>
+<p>Además, configuramos mensajes personalizados según la página desde la que escriban (no es lo mismo alguien que viene de la página de precios que alguien que viene del portfolio). También incluimos un enlace directo que puedes compartir en redes sociales.</p>
+<div class="mt-6 pt-6 border-t">
+<button onclick="closeModal()" class="bg-primary text-white px-6 py-3 rounded font-bold hover:bg-primary/90">Entendido</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="seo-starter" class="modal hidden fixed inset-0 bg-black/50 flex items-center justify-center z-[1000] p-4" onclick="closeModal(event)">
+<div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation()">
+<div class="sticky top-0 bg-white border-b flex justify-between items-center p-6">
+<h3 class="text-2xl font-black text-primary uppercase">SEO Starter</h3>
+<button onclick="closeModal()" class="text-3xl font-bold text-gray-400 hover:text-gray-600">&times;</button>
+</div>
+<div class="p-6 text-on-surface-variant leading-relaxed space-y-4">
+<p class="text-lg font-bold text-primary">SEO Starter (49€)</p>
+<p>Optimización técnica y de contenido de tu web para que Google te encuentre y te posicione en los resultados de búsqueda de tu zona. Esto incluye: investigación de las palabras clave que buscan tus potenciales clientes, optimización de títulos y descripciones de cada página, configuración de etiquetas técnicas (meta tags, schema markup, sitemap), alta en Google Search Console para monitorizar tu rendimiento, y optimización de velocidad de carga.</p>
+<p>No te prometemos el número uno de la noche a la mañana (desconfía de quien lo haga), pero sí una base sólida para que tu web aparezca cuando alguien busque tu tipo de negocio en tu ciudad.</p>
+<div class="mt-6 pt-6 border-t">
+<button onclick="closeModal()" class="bg-primary text-white px-6 py-3 rounded font-bold hover:bg-primary/90">Entendido</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="tienda-online" class="modal hidden fixed inset-0 bg-black/50 flex items-center justify-center z-[1000] p-4" onclick="closeModal(event)">
+<div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation()">
+<div class="sticky top-0 bg-white border-b flex justify-between items-center p-6">
+<h3 class="text-2xl font-black text-primary uppercase">Tienda online</h3>
+<button onclick="closeModal()" class="text-3xl font-bold text-gray-400 hover:text-gray-600">&times;</button>
+</div>
+<div class="p-6 text-on-surface-variant leading-relaxed space-y-4">
+<p class="text-lg font-bold text-primary">Tienda online (99€)</p>
+<p>Tu propio ecommerce integrado en la web, con catálogo de productos organizado por categorías, fichas con fotos y descripciones, carrito de compra y pasarela de pago segura (tarjeta, Bizum, PayPal o transferencia). Tus clientes pueden comprar desde el móvil o el ordenador las 24 horas del día, y tú recibes una notificación con cada pedido junto con todos los datos del comprador y la dirección de envío.</p>
+<p>Incluye gestión básica de stock para que no vendas algo que no tienes disponible. Si más adelante necesitas funcionalidades avanzadas como cupones de descuento, variantes de producto (tallas, colores) o cálculo automático de gastos de envío, podemos ampliar el módulo.</p>
+<div class="mt-6 pt-6 border-t">
+<button onclick="closeModal()" class="bg-primary text-white px-6 py-3 rounded font-bold hover:bg-primary/90">Entendido</button>
+</div>
+</div>
+</div>
+</div>
+
+<div id="galeria-fotos" class="modal hidden fixed inset-0 bg-black/50 flex items-center justify-center z-[1000] p-4" onclick="closeModal(event)">
+<div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto" onclick="event.stopPropagation()">
+<div class="sticky top-0 bg-white border-b flex justify-between items-center p-6">
+<h3 class="text-2xl font-black text-primary uppercase">Galería de fotos</h3>
+<button onclick="closeModal()" class="text-3xl font-bold text-gray-400 hover:text-gray-600">&times;</button>
+</div>
+<div class="p-6 text-on-surface-variant leading-relaxed space-y-4">
+<p class="text-lg font-bold text-primary">Galería de fotos (29€)</p>
+<p>Una sección visual dedicada a mostrar tus mejores trabajos, proyectos o productos con fotos de alta calidad organizadas por categorías o temas. Las imágenes se muestran con efecto zoom al pasar el ratón y puedes agruparlas en álbumes temáticos.</p>
+<p>Es especialmente útil para fotógrafos, decoradores, diseñadores, constructoras, peluquerías o cualquier negocio donde la imagen es parte clave de la venta. Tú nos pasas las fotos y nosotros las optimizamos y organizamos de manera profesional.</p>
+<div class="mt-6 pt-6 border-t">
+<button onclick="closeModal()" class="bg-primary text-white px-6 py-3 rounded font-bold hover:bg-primary/90">Entendido</button>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+function openModal(modalId) {
+  const modal = document.getElementById(modalId);
+  if (modal) {
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+function closeModal(event) {
+  if (event && event.target.id) {
+    const modal = document.getElementById(event.target.id);
+    if (modal) {
+      modal.classList.add('hidden');
+    }
+  } else {
+    const modals = document.querySelectorAll('.modal:not(.hidden)');
+    modals.forEach(modal => modal.classList.add('hidden'));
+  }
+  document.body.style.overflow = 'auto';
+}
+
+// Cerrar modal al pulsar Escape
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeModal();
+  }
+});
+</script>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/34666655962" target="_blank" rel="noopener noreferrer"
+  style="position:fixed;bottom:32px;right:32px;z-index:9999;width:60px;height:60px;border-radius:50%;background-color:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,0.3);transition:transform 0.2s,box-shadow 0.2s;"
+  onmouseover="this.style.transform='scale(1.12)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.35)'"
+  onmouseout="this.style.transform='scale(1)';this.style.boxShadow='0 4px 16px rgba(0,0,0,0.3)'"
+  onmousedown="this.style.transform='scale(0.95)'"
+  onmouseup="this.style.transform='scale(1.12)'">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="34" height="34">
+    <path fill="#fff" d="M4.9 43.3l2.7-9.9C5.5 30.7 4.5 27.4 4.5 24 4.5 13.2 13.2 4.5 24 4.5S43.5 13.2 43.5 24 34.8 43.5 24 43.5c-3.3 0-6.5-.9-9.3-2.5L4.9 43.3z"/>
+    <path fill="#25D366" d="M24 7.5C14.9 7.5 7.5 14.9 7.5 24c0 3.2.9 6.2 2.5 8.8L7.6 41l8.4-2.4c2.5 1.4 5.4 2.2 8.4 2.2 9.1 0 16.5-7.4 16.5-16.5S33.1 7.5 24 7.5z"/>
+    <path fill="#fff" d="M33.3 28.5c-.4-.2-2.5-1.2-2.9-1.4-.4-.2-.7-.2-1 .2-.3.4-1.1 1.4-1.4 1.7-.3.3-.5.3-.9.1-.4-.2-1.8-.7-3.4-2.1-1.3-1.1-2.1-2.5-2.4-2.9-.2-.4 0-.6.2-.8.2-.2.4-.5.6-.7.2-.2.3-.4.4-.7.1-.3 0-.5-.1-.7-.1-.2-1-2.5-1.4-3.4-.4-.9-.7-.8-1-.8h-.8c-.3 0-.7.1-1 .5-.4.4-1.4 1.4-1.4 3.3 0 2 1.5 3.9 1.7 4.1.2.3 2.9 4.6 7.2 6.3 1 .4 1.8.6 2.4.8 1 .3 1.9.3 2.6.2.8-.1 2.5-1 2.9-2 .4-.9.4-1.7.3-1.9-.1-.1-.4-.2-.8-.4z"/>
+  </svg>
+</a>
+</body></html>
